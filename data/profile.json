@@ -1,0 +1,23 @@
+{
+  "name": "김수완",
+  "school": "고려대학교 미디어대학 미디어학부",
+  "admissionYear": "23학번",
+  "doubleMajor": "심리학부",
+  "interests": [
+    { "emoji": "🎬", "title": "영화", "description": "이야기가 만들어지고 전달되는 방식" },
+    { "emoji": "📱", "title": "콘텐츠", "description": "사람들이 무엇에, 왜 반응하는가" },
+    { "emoji": "📢", "title": "광고", "description": "메시지가 마음을 움직이는 지점" }
+  ],
+  "hobbies": [
+    { "emoji": "⛸️", "title": "피겨 스케이팅" },
+    { "emoji": "📚", "title": "독서" },
+    { "emoji": "🥬", "title": "요리", "note": "최근에는 파김치를 만들어봤어요" }
+  ],
+  "experience": [
+    {
+      "period": "2023.3 - 2024.12",
+      "organization": "고려대학교 교육방송국 KTN",
+      "roles": ["PD", "대외협력차장", "홍보차장"]
+    }
+  ]
+}
