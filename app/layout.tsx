@@ -13,18 +13,24 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
-      <body className="relative min-h-screen overflow-x-hidden bg-gradient-to-br from-rose-50 via-violet-50 to-sky-50 text-neutral-800">
+      <body className="relative min-h-screen overflow-x-hidden bg-gradient-to-b from-sky-200 via-sky-100 to-lime-100 text-stone-700">
+        {/* clouds */}
         <div
           aria-hidden
-          className="pointer-events-none fixed -top-24 -left-24 h-72 w-72 rounded-full bg-pink-200/50 blur-3xl"
+          className="pointer-events-none fixed -top-8 left-8 h-24 w-40 rounded-full bg-white/70 blur-2xl"
         />
         <div
           aria-hidden
-          className="pointer-events-none fixed top-1/3 -right-24 h-72 w-72 rounded-full bg-sky-200/50 blur-3xl"
+          className="pointer-events-none fixed top-10 right-10 h-20 w-36 rounded-full bg-white/60 blur-2xl"
         />
         <div
           aria-hidden
-          className="pointer-events-none fixed -bottom-24 left-1/3 h-72 w-72 rounded-full bg-violet-200/50 blur-3xl"
+          className="pointer-events-none fixed top-32 left-1/2 h-16 w-28 -translate-x-1/2 rounded-full bg-white/50 blur-xl"
+        />
+        {/* grass texture */}
+        <div
+          aria-hidden
+          className="pointer-events-none fixed inset-x-0 bottom-0 h-48 opacity-25 [background-image:radial-gradient(circle,#65a30d_1.5px,transparent_1.5px)] [background-size:18px_18px]"
         />
         {children}
       </body>
