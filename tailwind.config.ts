@@ -4,16 +4,24 @@ const config: Config = {
   content: ["./app/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
+      fontFamily: {
+        jua: ["Jua", "sans-serif"],
+        gowun: ['"Gowun Dodum"', "sans-serif"],
+        galmuri: ["Galmuri11", "monospace"],
+      },
       keyframes: {
-        float: {
-          "0%, 100%": { transform: "translateY(0px)" },
-          "50%": { transform: "translateY(-10px)" },
+        acSway: {
+          "0%, 100%": { transform: "rotate(-1.4deg)" },
+          "50%": { transform: "rotate(1.4deg)" },
+        },
+        acBob: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-5px)" },
         },
       },
       animation: {
-        "float-slow": "float 6s ease-in-out infinite",
-        "float-medium": "float 4.5s ease-in-out infinite",
-        "float-fast": "float 3.5s ease-in-out infinite",
+        "ac-sway": "acSway 9s ease-in-out infinite",
+        "ac-bob": "acBob 4s ease-in-out infinite",
       },
     },
   },
